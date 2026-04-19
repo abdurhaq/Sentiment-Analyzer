@@ -248,16 +248,11 @@ textarea:focus {
 </style>
 """, unsafe_allow_html=True)
 
-# ── Model loading ───────────────────────────────────────────────────────────────
-MODEL_PATH = "./sentiment_model"
 
 @st.cache_resource(show_spinner=False)
 def load_model():
-    if not os.path.exists(MODEL_PATH):
-        st.error("Model not found. Run `python train.py` first.")
-        st.stop()
-    tokenizer = DistilBertTokenizerFast.from_pretrained(MODEL_PATH)
-    model = DistilBertForSequenceClassification.from_pretrained(MODEL_PATH)
+    tokenizer = DistilBertTokenizerFast.from_pretrained("abdurhaq/sentiment-lens")
+    model = DistilBertForSequenceClassification.from_pretrained("abdurhaq/sentiment-lens")
     model.eval()
     return tokenizer, model
 
