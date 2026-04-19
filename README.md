@@ -4,7 +4,7 @@ A sentiment analysis web app powered by a fine-tuned DistilBERT model, built wit
 
 ## Demo🔗 **[Live App](https://sentiment-analyzer-erkjwmgj2wfdydgwkwatpb.streamlit.app/)**
 
-![App Screenshot](screenshot.png)
+[App Screenshot](https://github.com/abdurhaq/Sentiment-Analyzer/blob/main/Screenshot%202026-04-19%20224459.png)
 
 ## What it does
 Paste any text — a review, tweet, or headline — and the model instantly predicts whether the sentiment is **positive** or **negative**, along with a confidence score and probability breakdown.
