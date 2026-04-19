@@ -3,7 +3,7 @@
 A sentiment analysis web app powered by a fine-tuned DistilBERT model, built with Streamlit.
 
 ## Demo
-🔗 **[Live App](https://your-app-link.streamlit.app)** ← replace with your link after deploying
+🔗 **[Live App]([https://your-app-link.streamlit.app](https://sentiment-analyzer-erkjwmgj2wfdydgwkwatpb.streamlit.app/))** ← replace with your link after deploying
 
 ![App Screenshot](screenshot.png)
 
