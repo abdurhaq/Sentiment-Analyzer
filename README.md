@@ -2,9 +2,7 @@
 
 A sentiment analysis web app powered by a fine-tuned DistilBERT model, built with Streamlit.
 
-## Demo
-🔗 ## Demo
-🔗 **[Live App](https://sentiment-analyzer-erkjwmgj2wfdydgwkwatpb.streamlit.app/)**
+## Demo🔗 **[Live App](https://sentiment-analyzer-erkjwmgj2wfdydgwkwatpb.streamlit.app/)**
 
 ![App Screenshot](screenshot.png)
 
